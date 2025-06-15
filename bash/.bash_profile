@@ -24,4 +24,5 @@ parse_git_branch() {
 }
 
 
-PS1="${RED}.: ${BLUE}\w ${RED}:. ${BLUE}.: ${RED}\$(date +'%b.%d %H:%M') ${BLUE}:. ${PURP}\$(parse_git_branch)\n${RESET}$ "
+PS1="${RESET}.: ${GREEN}\w ${RESET}:. ${PURP}\$(parse_git_branch)\n${RESET}$ "
+PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
