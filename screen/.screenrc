@@ -1,0 +1,17 @@
+altscreen on
+defscrollback 30000
+vbell off
+startup_message off
+term screen-256color
+autodetach on
+
+setenv COLORTERM ""
+truecolor on
+
+bind c screen 1
+bind ^c screen 1
+bind 0 select 10
+
+screen -t shell 1
+
+hardstatus alwayslastline "%{= k}%{W}%-w[%n %t]%+w%-=%{W}%C %a "

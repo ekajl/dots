@@ -41,4 +41,4 @@
 
 ;; Scheme
 (add-to-list 'auto-mode-alist '("\\.sld$" . scheme-mode))
-(setq scheme-program-name "ypsilon")
+(setq scheme-program-name "ypsilon -7")
