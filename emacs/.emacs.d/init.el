@@ -1,4 +1,4 @@
-;;; init.el --- Initialization file -*- lexical binding: t -*-
+;;; init.el --- Initialization file --- -*- lexical-binding: t -*-
 ;;; Commentary:
 ;;; Code:
 
@@ -10,13 +10,16 @@
 (require 'init-elpa)
 (require 'init-exec-path)
 (require 'init-flycheck)
-(require 'init-magit)
+(require 'init-eglot)
+(require 'init-company)
+(require 'init-yaml)
+(require 'init-org)
+(require 'init-fido)
 (require 'init-ruby)
 (require 'init-go)
 (require 'init-scheme)
 (require 'init-terraform)
 (require 'init-docker)
-(require 'init-yaml)
-(require 'init-fido)
-(require 'init-org)
 (require 'init-shell)
+(require 'init-python)
+;;; init.el ends here

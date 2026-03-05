@@ -21,7 +21,7 @@
   (set-fringe-mode 28)
   (setq visible-bell t))
 
-(load-theme 'tango-dark t)
+(load-theme 'tango t)
 
-(provide 'init-ut)
+(provide 'init-ui)
 ;;; init-ui.el ends here

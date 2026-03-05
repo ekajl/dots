@@ -5,6 +5,8 @@
 (setq org-agenda-files (list "~/org/"))
 (setq org-log-done 'time)
 
+(require 'ox)
+(require 'ox-md)
 (add-to-list 'org-export-backends 'md)
 
 (global-set-key (kbd "C-c l") #'org-store-link)
